@@ -1,0 +1,33 @@
+nav > ul > li {
+    display: inline;
+    text-decoration: none;
+    margin-right: 15px;
+}
+nav li > a{
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  label{
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  table{
+    text-align: center;
+    border-collapse: collapse;
+  }
+  td, th{
+    border: 1px solid black;  
+    width: 30%; 
+    margin: auto; 
+    padding: 5px 10px;
+  }
