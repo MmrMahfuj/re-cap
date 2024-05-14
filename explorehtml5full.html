@@ -12,7 +12,23 @@
             <ul>
                 <li><a href="video.html">Video</a></li>
                 <li><a href="form.html">Form</a></li>
-                <li><a href="table.html">Table</a></li>
+                <li>
+                    <a href="table.html">Table</a>
+                    <ul class="dropdown">
+                        <li><a href="video.html">Video</a></li>
+                        <li><a href="form.html">Form</a></li>
+                        <li>
+                            <a href="table.html">Table</a>
+                            <ul class="dropdown">
+                                <li><a href="video.html">Video</a></li>
+                                <li><a href="form.html">Form</a></li>
+                                <li><a href="table.html">Table</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </li>
                 <li><a href="blog.html">Blog</a></li>
             </ul>
         </nav>
@@ -139,6 +155,44 @@
                 </tfoot>
 
             </table>
+        </section>
+
+        <!-- some attribute test ==========================-->
+        <section>
+            <button title="Please">Click me</button>
+            <button disabled="disabled">Click me</button>
+            <input type="number" max="10" min="5" name="" id="">
+        </section>
+
+        <!-- immet explore ===================================-->
+        <section>
+            <!-- ul.dropdown#user>li.item*5>a.menuItem -->
+            <ul class="dropdown" id="user">
+                <li class="item"><a href="" class="menuItem"></a></li>
+                <li class="item"><a href="" class="menuItem"></a></li>
+                <li class="item"><a href="" class="menuItem"></a></li>
+                <li class="item"><a href="" class="menuItem"></a></li>
+                <li class="item"><a href="" class="menuItem"></a></li>
+            </ul>
+
+              <!-- div>article.blog*3>h3{My Blog $}+p>lorem10^p>lorem50 -->
+              <div>
+                <article class="blog">
+                    <h3>My Blog 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, officiis!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, incidunt! Delectus perferendis aperiam reprehenderit perspiciatis quasi? Natus sit similique, mollitia excepturi nihil illo labore vel. Facilis officia tempore ab ducimus nam accusamus, sequi quisquam debitis nobis deleniti at doloribus expedita excepturi consectetur eum dolor corrupti modi. Nesciunt, temporibus fugit. Consectetur?</p>
+                </article>
+                <article class="blog">
+                    <h3>My Blog 2</h3>
+                    <p>Voluptas odit maxime velit cum, corrupti delectus saepe amet quam!</p>
+                    <p>Dolor dolorum quo quod ratione optio totam tenetur enim voluptates voluptatem quam at commodi, corrupti ex ipsam similique pariatur voluptatum facere itaque! Eos vel, illum, optio corporis quam necessitatibus molestias modi ratione ut quos dolorum esse ullam debitis hic asperiores, ad sint? Vitae, quo dolor quod recusandae consectetur ipsa adipisci.</p>
+                </article>
+                <article class="blog">
+                    <h3>My Blog 3</h3>
+                    <p>Temporibus iusto incidunt quis reprehenderit sint architecto laudantium voluptates animi.</p>
+                    <p>Earum suscipit veniam incidunt ex excepturi minima quas eos adipisci, fuga harum quae. Inventore sequi nemo dolorum iusto, autem accusantium distinctio unde veniam. Odit accusantium facere praesentium cumque temporibus, nemo incidunt consequatur voluptatibus dolores harum vitae sequi magni, quam, aut officiis officia et ducimus qui doloremque a impedit aliquam quia?</p>
+                </article>
+              </div>
         </section>
     </main>
     <footer>

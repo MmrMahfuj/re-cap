@@ -39,3 +39,12 @@ footer{
     margin: auto; 
     padding: 5px 10px;
   }
+  /* nested menu styles --------------------------------------*/
+  nav li .dropdown{
+    display: none;
+  }
+  nav li:hover > .dropdown{
+    display: block;
+    position: absolute;
+    background-color: lightyellow;
+  }
